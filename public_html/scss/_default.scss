@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02.02.2016, 22:12:19
+    Author     : Jan Ackermann
+*/
+
+.logo{
+    height: 55px;
+    width: 150px;
+    background: url('../img/img-logo.png') no-repeat;
+    background-size: 40px;
+    padding-left: 50px;
+    padding-top: 15px;
+    margin: 25px;
+    &-heading{
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        color: #fff;
+    }
+}

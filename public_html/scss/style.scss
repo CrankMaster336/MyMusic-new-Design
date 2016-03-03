@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02.02.2016, 21:48:30
+    Author     : Jan Ackermann
+*/
+
+@import "_modules.scss";
+
+/* Colors */
+
+$primary-color: #2c3e50; 
+$secondary-color: #2980b9; 
+
+/* Background */
+
+html{
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to left top, $primary-color 0%/*bottom-right color*/, $secondary-color 100% /*top-left color*/), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+        background-repeat: no-repeat;
+}
